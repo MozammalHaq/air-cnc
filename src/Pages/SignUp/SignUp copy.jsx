@@ -38,7 +38,7 @@ const SignUp = () => {
 
         // image upload
         const image = e.target.image.files[0];
-        // to send imgbb need below code 
+        // to send imgbb nee below code 
         const formData = new FormData()
         formData.append('image', image);
         // end
